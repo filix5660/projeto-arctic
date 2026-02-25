@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #101d20;
+}
+
+#ativo{
+  color:white;
+}
+
+.navbar-custom {
+  background-color: #888;
+  padding: 15px 0;
+}
+
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 0.85;
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  letter-spacing: -1px;
+}
+
+.nav-link {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.nav-item :hover {
+  color: white;
+  text-decoration: underline white;
+}
+
+.social-icons a {
+  color: black;
+  font-size: 1.5rem;
+  margin-left: 20px;
+
+}
+
+.social-icons a:hover {
+  opacity: 0.5;
+}
+
+@media (min-width: 992px) {
+
+  .navbar-nav,
+  .social-area {
+    flex: 1;
+  }
+
+  .social-area {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .brand-area {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+#imagens{padding: 0 10% 0 10%;}
+
+.albuns {
+  width: 100%;
+  height: 600px;
+}
+
+#slides {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.titulos {
+  background-color: #8888886a;
+}
+
+
+
+.descrição {
+  text-align: center;
+  color: white;
+}
+
+#imagens {
+  display: flex;
+  width: 100%;
+}
+
+.foto-banda {
+  width: 50%;
+}
+
+.capas {
+  width: 50vw;
+  height: 500px;
+}
+
+#albuns {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#formulario{
+  color: white;
+  padding: 10% 30% 10% 30%; 
+}
+
+#bt-submit{
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #footer-links {
+    margin-top: 10px;
+  }
+
+  #footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+  }
+
+  #footer-links a:hover {
+    text-decoration: underline;
+  }
